@@ -3,8 +3,7 @@ import { SafeAreaView, StyleSheet, Text, TouchableOpacity,} from "react-native"
 function New (){
     const [hansisaName,setName] = useState("Zehra")
     
-    
-    
+
     const click = ()=>{
         const name = hansisaName === "Zehra" ? "Venera": "Zehra"
         setName(name)
