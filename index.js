@@ -3,8 +3,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import App from './src/App';
 import {name as appName} from './app.json';
-import New from './src/New';
+import Kalk from './src/kalkulyator';
 
-AppRegistry.registerComponent(appName, () => New);
+AppRegistry.registerComponent(appName, () => Kalk);
