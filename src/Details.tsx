@@ -1,7 +1,7 @@
 
 import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native"
 
-function App (){
+function Details (){
   return (
     <SafeAreaView style={styles.area}>
       <ScrollView style={{flex:1}}>
@@ -46,7 +46,7 @@ function App (){
     </SafeAreaView>
   )
 }
-export default App
+export default Details
 
 const styles = StyleSheet.create({
   area: {
