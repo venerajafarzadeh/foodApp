@@ -19,7 +19,7 @@ function Home(){
             </View>
             
             <TouchableOpacity onPress={gotoDetails} style={styles.icon}>
-            <Image source={require("./assets/icons/Group.png")}/>
+            <Image source={require("./assets/icons/Groupstart.png")}/>
             </TouchableOpacity>
             <Image source={require("./assets/images/Fried.png")}/>
             </ScrollView>
